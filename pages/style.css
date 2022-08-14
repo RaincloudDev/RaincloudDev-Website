@@ -1,0 +1,249 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+img{
+    display:flex;
+    width: auto;
+    max-height: 75px;
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    padding: 4px;
+    margin-top: 2px;
+    
+}
+
+/* logo, links title and image*/
+.a{
+    background-color: #341735;  
+    display: flex;
+    
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: space-between;
+
+    
+
+}
+.menu{
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 24px;
+
+}
+
+.a-a{
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-between;
+}
+
+.a-a-a{
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 48px;
+}
+.a-a-b{
+    padding-right: 48px;
+}
+.a-b{
+    padding: 36px;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+    
+}
+
+.a-b-b{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.a-b-c{
+    align-self: center;
+    justify-content: center;
+    color: #f9faf8; 
+}
+.a-b-b-a{
+    font-size: 48px;
+    color: #f9faf8;
+    
+    
+}
+.a-b-b-b{
+
+    font-size: 18px;
+    color: #e5e7eb;
+    
+    
+}
+
+/* Second section-title and four divs */
+
+.b{
+    margin: 16px;
+    padding: 16px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    
+}
+
+.b-a{
+    font-size: 36px;
+    font-style: bold;
+    color: #1f2937;
+    align-self: center;
+    padding: 24px;
+    margin: 24px;
+}
+
+.b-b{
+    color: aliceblue;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+
+.b-b-a{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+.imageLink{
+    display:flex;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    padding:36px;
+    
+}
+.linkTitle{
+    padding: 12px;
+    
+}
+
+
+
+/* qoute */
+.c{
+    background-color: #454647;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 36px;
+    padding: 36px;
+}
+
+
+/*footer*/
+
+.d{
+    font-size:18px;
+    background-color: #341735;  
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.d-a{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 15px;
+    margin:24px;
+    padding: 24px;
+}
+
+
+.button2{
+    align-self: center;
+    flex-basis: 100px;
+    height: 36px;
+}
+
+/* GAME PAGE */
+/* gamesColumn styled with "b" */
+
+.allGames{
+    display: flex;
+    flex-flow: column;
+    max-width: 85%;
+    
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.gamesColumn{
+    margin: 16px;
+    padding: 16px;
+
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.gameListing{
+    
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #34173565;
+    border-radius: 12%;
+    
+    margin-bottom: 16px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.gameDescription{
+    
+    color: aliceblue;
+    font-size: larger;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 32px;
+    
+}
+.gameTitle{
+    justify-self: center;
+    color: aliceblue;
+    font-size: 48px;
+    
+}
+
+.gamePic{
+    min-width: 350px;
+    min-height: 350px;
+    margin: 12px;
+    border-radius: 12%;
+}
+
+.gamesIntro{
+    width: 65%;
+    font-size: 32px;
+    color:aliceblue;
+    padding: 24px;
+    margin-left: 24px;
+    
+}
